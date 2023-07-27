@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script>
+      function navToggle() {
+        const myNav = document.getElementById("menu");
+        myNav.classList.toggle("opened");
+      }
+    </script>
+  </head>
+  <body>
+    <div class="col-7 col-md-5 col-lg-3">
+      <div id="menu">
+        <ul>
+          <li>
+            <a href="">
+              Academies
+              <img
+                class="down"
+                src="./images/free-down-keyboard-arrow-key-direction-30469.png"
+                width="20px"
+                alt=""
+              />
+            </a>
+          </li>
+
+          <li>
+            <a href="">
+              Career
+              <img
+                class="down"
+                src="./images/free-down-keyboard-arrow-key-direction-30469.png"
+                width="20px"
+                alt=""
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="hamburgerm" onclick="navToggle()">
+        <img
+          src="./images2/eps10-blue-hamburger-menu-bar-line-art-icon-or-logo-in-thick-rounded-circle-isolated-on-white-background-free-vector.jpg"
+          width="50px"
+          alt=""
+          class="img_responsive hamburgermenu"
+        />
+      </div>
+    </div>
+    <ul class="listswith1JS">
+      <script>
+        var listsJS = [
+          {
+            title: "Week 1",
+            description: " Introduction to Software Testing and Selection",
+          },
+          { title: "Week 2", description: "  Manual Testing Fundamentals" },
+          { title: "Week 3-6", description: " Introduction to OPO (Java)" },
+          {
+            title: "Week 7",
+            description: " Introduction to Automation Testing",
+          },
+          {
+            title: "Week 8-10",
+            description: " Back-end Test Automation using rest vassured (Java)",
+          },
+          {
+            title: "Week 11-13",
+            description:
+              "Front-end Test Automation using Selenium (Java) - GUI",
+          },
+          { title: "Week 14", description: " Database connection -Postgre" },
+          { title: "Week 15", description: "End 2 End Testing" },
+          { title: "Week 16", description: "Testing Best Practices" },
+          { title: "Week 17", description: "Prepare for Job Interview " },
+        ];
+
+        var listswith1JS = listsJS.map(function (item) {
+          return "<li>" + item.title + +item.description + "</li>";
+        });
+        document.write(listswith1JS.join(""));
+      </script>
+    </ul>
+  </body>
+</html>

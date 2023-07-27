@@ -1,0 +1,207 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+#main {
+  overflow: hidden;
+}
+#img-responsive {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 481px) {
+  .appearonmobile {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+  .second1-circle {
+    margin-top: -260px !important;
+    margin-left: 90px !important;
+  }
+  .last1-circle {
+    margin-bottom: -29px !important;
+  }
+}
+@media (max-width: 575px) {
+  #calculate {
+    display: none !important;
+  }
+  .marginbox {
+    display: none;
+  }
+  #submit {
+    font-size: 10px;
+    width: 100%;
+    margin-left: 0 !important;
+  }
+  #menu {
+    display: none;
+  }
+  .hamburgermenu {
+    display: block !important;
+    padding-top: 40px;
+    margin-left: 90px !important;
+  }
+  .opened {
+    display: block !important;
+  }
+  .under {
+    right: 0 !important;
+    top: 250px !important;
+  }
+  p.none {
+    display: block !important;
+  }
+  a.firstbtn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .image {
+    display: none;
+  }
+}
+@media (max-width: 1400px) {
+  .borderw {
+    height: 400px !important;
+  }
+  .remove {
+    display: none;
+  }
+  .name {
+    padding-right: 30px !important;
+  }
+  .smallpd {
+    padding-right: 30px !important;
+  }
+}
+@media (max-width: 1200px) {
+  #hugebluebackground {
+    padding-bottom: 200px !important;
+  }
+  .remove1 {
+    display: none !important;
+  }
+  .box {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  #partsix {
+    display: none !important;
+  }
+  #testthebutton {
+    display: block !important;
+  }
+  #hugebluebackground {
+    padding-bottom: 800px !important;
+  }
+  .disappear {
+    display: block !important;
+  }
+  .marginbox {
+    display: none !important;
+  }
+  .blur {
+    margin-right: 5px !important;
+  }
+  .move {
+    display: none !important;
+  }
+  .appearonmobile {
+    display: block !important;
+  }
+  .giveborder {
+    width: 90% !important;
+  }
+  .giveborder2 {
+    width: 90% !important;
+    margin-right: 30px;
+  }
+  .hire-metitle {
+    margin-left: 5px !important;
+  }
+  .test1 {
+    margin-left: 0 !important;
+    margin-bottom: 0 !important;
+  }
+  .name {
+    padding-right: 70px !important;
+  }
+  .smallpd {
+    padding-right: 30px !important;
+  }
+
+  .underp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .hire_me {
+    height: auto;
+    width: auto;
+  }
+  .titteandimage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 165px !important;
+  }
+}
+@media (max-width: 991px) {
+  .disapear {
+    display: block !important;
+    width: 100% !important;
+  }
+  .margin-box {
+    display: none !important;
+  }
+  .borderw {
+    height: auto !important;
+  }
+  .popular {
+    margin-top: 150px !important;
+  }
+  .secondlists {
+    padding-left: 0 !important;
+  }
+  .hire-metitle {
+    margin-left: 240px !important;
+  }
+  .test1 {
+    margin-left: 240px !important;
+    margin-bottom: 0 !important;
+  }
+  .firstp {
+    margin-left: 40px !important;
+    margin-top: 20px !important;
+  }
+  .p2 {
+    margin-left: 40px !important;
+  }
+  .underp {
+    margin-left: 240px !important;
+  }
+  .hire_me {
+    margin-bottom: 40px !important;
+    height: 500px !important;
+  }
+}
+
+@media (max-width: 1025px) {
+  .removethisimage {
+    display: block !important;
+  }
+  .displaynonepic {
+    display: none;
+  }
+  .relative {
+    display: none;
+  }
+}
